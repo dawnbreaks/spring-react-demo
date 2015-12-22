@@ -6,10 +6,10 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.js/,
-                loader: 'babel'
+                test: /\.jsx/,
+                loader: 'babel?presets[]=react,presets[]=es2015'
             }
         ]
     },
-    devtool: 'source-map'
+    devtool: '#source-map'
 }

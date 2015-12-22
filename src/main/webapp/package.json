@@ -10,12 +10,15 @@
   "license": "MIT",
   "dependencies": {
     "react": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "babel-loader": "latest",
-    "webpack": "latest"
-  },
-  "scripts": {
+    "babel-preset-react": "latest"
+    "babel-preset-es2015": "latest"
+     "webpack": "latest"
+  },  
+ "scripts": {
     "webpack": "node node_modules/webpack/bin/webpack -w"
   }
 }

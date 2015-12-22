@@ -1,3 +1,4 @@
+
 var React = require('react');
 
 class NamesList extends React.Component {
@@ -11,7 +12,7 @@ class NamesList extends React.Component {
     }
 
     render() {
-        var names = this.state.names.map(name => <li>{name}</li>)
+        var names = this.state.names.map(name => <li key={name}>{name}</li>)
         return (
             <ul>{names}</ul>
         )
