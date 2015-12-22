@@ -1,4 +1,3 @@
-
 var React = require('react');
 
 class NamesList extends React.Component {

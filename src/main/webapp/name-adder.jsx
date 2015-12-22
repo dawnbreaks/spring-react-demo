@@ -1,4 +1,3 @@
-
 var React = require('react');
 var ReactDOM = require('react-dom');
 
@@ -10,7 +9,7 @@ class NameAdder extends React.Component {
 
         fetch(`${this.props.url}/${input.value}`, {method: 'POST'})
             .then(response => {
-                if(response.ok) {
+                if (response.ok) {
                     input.value = null
                     this.props.onAdded()
                 }

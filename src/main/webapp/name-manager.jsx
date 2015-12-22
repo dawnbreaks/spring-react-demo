@@ -1,4 +1,3 @@
-
 var React = require('react'),
     NameAdder = require('./name-adder.jsx'),
     NamesList = require('./names-list.jsx');
